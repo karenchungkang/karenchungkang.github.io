@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,135 +9,377 @@
     <meta name="googlebot" content="all">
     <meta name="description" content="Aspiring UX Designer with a passion for creating novel and engaging technologies that cater to human-centered needs.">
     <meta name="author" content="Karen Chung Kang">
-    <meta name="keywords" content="Karen Chung Kang,Karen Kang,User Experience, UX, UX Research, Human-Centered, AI, Human-Centered AI, User-Centered Design, Human Factors,Human-Computer Interaction, HCI">
+    <meta name="keywords" content="Karen Chung Kang, Karen Kang, User Experience, UX, UX Research, Human-Centered, User-Centered Design, Human Factors, Human-Computer Interaction, HCI">
 
-    <title>Karen C. Kang | UX Designer</title>
+    <title>Karen C. Kang | UX and Design Researcher</title>
 
-    <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!-- Fancybox Style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
+    <!-- Fancybox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
     <!-- Favicon -->
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="icon" href="" type="image/x-icon">
-</head>
+  </head>
+  <body>
 
-<body>
-
-    <div class="wrapper">
-        <!-- Sidebar Holder -->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3><a href="#">Karen Chung Kang</a></h3>
-            </div>
-
-            <ul class="list-unstyled components">
-                <p> Aspiring UX Designer</p>
-                <li class="active">
-                    <a href="#">About Me</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="resume.html">Resume</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" width="40%"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">
+                  Projects
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">
+                  Resume
+                </a>
+              </li>
             </ul>
-            <ul class="list-unstyled CTAs">
-                <li><a href="files/resume.pdf" target="_blank">Resume</a></li>
-                <li><a href="https://www.linkedin.com/in/karenchungkang/" target="_blank">LinkedIn</a></li>
-            </ul>
-        </nav>
-
-        <!-- Page Content Holder -->
-        <div id="content">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="navbar-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-
-                    <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                        </ul>
-                    </div> -->
-
-                </div>
-            </nav> 
-            <div class="container">
-                <h2>HELLO! NICE TO MEET YOU :) </h2>
-                <div class="row">
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                        
-                        <br><br><br><br>
-                        <p>I’m a former product and sales manager and an asipiring UX designer looking to grow my UX research & design skills. My passion lies in creating novel and engaging technologies that cater to human centered needs. I challenge myself to learn new skills everyday (e.g., html/css tricks, prototyping techniques, etc.) and understand how people use and experience technology on a day to day basis. By the way, I hand-coded this website by myself!</p>
-                        <p> There are many defining moments in my life. I make choices without fear, and that is why my aim with UX design is surprising yet destined. My motivation for design stems from over 7 years of experience in product and sales management in the wholesale retail industry. Through this experience, I was given the unique opportunity to learn to think and see the world from others' perspectives.</p>
-                        <p>My ultimate goal is to combine my passion for understanding people with user-centered design to create innovative and technology-driven solutions to improve human experiences in everyday life.</p> 
-                        <p>I hold a B.A in Economics from the University of California, San Diego.</p>
-                       
-                        
-                        <p>In my spare time, I like to bake from scratch, take photos, sketch, and play piano. </p>
-
-                        <br><br>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                  
-                        <br><br><br><br>
-                        <img class="img-responsive" src="img/profile.png" alt="" width="300px">
-                        <br><br>
-                    </div>
-                    
-                    <!-- Footer -->
-                    <div class="footer">Copyright &copy; Karen Kang 2020</div>
-                </div>
-            </div>
+          </div>
         </div>
-            
-    
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-    <!-- Google Analytics -->
+        <!-- Mobile Menu Start -->
+        <ul class="onepage-nev mobile-menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#portfolio">Projects</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>
+      <!-- Navbar End -->
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').toggleClass('active');
-                $(this).toggleClass('active');
-            });
-        });
-    </script>
-</body>
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              <div class="contents">
+                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi! I am</h5>
+                <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Karen Kang,</h2>
+                <p class="script-font wow fadeInUp" data-wow-delay="0.6s">UX and Design Researcher</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Area End -->
 
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+              <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
+            </div>
+          </div> 
+          <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+            <div class="wow fadeInRight" data-wow-delay="0.3s">
+              <h3>Hello World!</h3>
+              <p>I’m a former product and sales manager looking to transition my career into the field of UX research and design. My passion for design emerged from over seven years of experience managing the sales of over 400 inventory items (est. cost of $25 million) in the wholesale retail industry. Through this experience, I was given the unique opportunity to learn to think and see the world from the customer's perspectives. My goal is to grow in this exciting field to contribute my knowledge of commerce and use data-driven insights to inform the design of products that are centered around user needs.</p>
+              <br>
+              <a href="/files/resume.pdf" class="btn btn-primary"><i class="icon-cloud-download"></i> &nbsp;Download Resume</a>&nbsp;
+              <a href="https://www.linkedin.com/in/karenchungkang/" class="btn btn-info"><i class="icon-link"></i> &nbsp;LinkedIn</a>&nbsp;
+              <a href="mailto:karenchungkang@gmail.com" class="btn btn-info"><i class="icon-speech"></i> &nbsp;Contact Me</a>
+            </div>
+          </div>   
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolios" class="section-padding">
+      <!-- Container Starts -->
+      <div class="container">        
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Projects</h2>
+        <div class="row">          
+          <div class="col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <div class="controls text-center">
+              <a class="filter active btn btn-common" data-filter="all">
+                All 
+              </a>
+              <a class="filter btn btn-common" data-filter=".design">
+                Research 
+              </a>
+              <a class="filter btn btn-common" data-filter=".development">
+                Design
+              </a>
+              <a class="filter btn btn-common" data-filter=".print">
+                Prototyping 
+              </a>
+            </div>
+            <!-- Portfolio Controller/Buttons Ends-->
+          </div>
+
+          <!-- Portfolio Recent Projects -->
+          <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/transit/transit_main.jpg" alt="" />  
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/portfolio/transit/transit_main.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="transit.html">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/parents/parent_main.jpg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/portfolio/parents/parent_main.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="parents.html">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/redesign/costco_main.jpeg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/portfolio/redesign/costco_main.jpeg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="redesign.html">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/portfolio/bakery/canele1.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/portfolio/bakery/canele1.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="bakery.html">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-5.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="project5.html">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-6.jpg" alt=""/>
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="project6.html">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends --> 
+
+    <!-- Resume Section Start -->
+    <div id="resume" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="education wow fadeInRight" data-wow-delay="0.3s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-graduation"></i>
+                  <h2 class="timelin-title">Education &amp; Coursework</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Specialization - University of California, San Diego</h3>
+                    <span>Jul - Sep 2019</span>
+                    <p class="line-text">An online specialization and certification track provided by University of California San Diego and offered through Coursera (course certificates accessible below). <br><b>Completed Courses:</b> <a href="https://coursera.org/share/1c341c0dbca4a2becd500ce6587b914a" target="_blank">Human-Centered Design</a>, <a href="https://coursera.org/share/1f021c56a7fcbfb5d1cdb6cc7ad82b60" target="_blank">Design Principles</a>, <a href="https://coursera.org/share/eb0544abfc46b8ed035ac14264d83eb2" target="_blank">Social Computing</a>, <a href="https://coursera.org/share/b3466141dd7dd0fca21fa40cd09d10fe" target="_blank">Input and Interaction</a>, <a href="https://coursera.org/share/677fa8a3599eed6caaff57227f666427" target="_blank">User Experience: Research & Prototyping</a>, <a href="https://coursera.org/share/28ceaa71aaf425b7fc66cc1057e56f7f" target="_blank">Information Design</a>, <a href="https://coursera.org/share/6eb252b354a731bf33dea86d1eeb530e" target="_blank">Designing, Running and Analyzing Experiments</a><br>
+                    <b>Acquired Skills:</b> Contextual Inquiry, Storyboarding, Rapid Prototyping, Usability Testing, Heuristic Evaluation, Survey Design, R Programming, and A/B Testing
+
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">B.A. - University of California, San Diego</h3>
+                    <span>2006 - 2010</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-briefcase"></i>
+                  <h2 class="timelin-title">Experience</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Sales Coordinator - US Foods</h3>
+                    <span>Feb 2020 - Present</span>
+                    <p class="line-text">Maintained ongoing relationships with broad range of customers in food and beverage business to find and resolve their needs for large bulk purchases. Served as primary liaison between customers, territory managers, district sales managers and product sales support administrator.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Assistant Buyer - Costco Korea</h3>
+                    <span>2014 - 2018</span>
+                    <p class="line-text">Arranged and launched new products to meet the needs of customers. Conducted interviews and reviewed new item presentations from suppliers. Finalized and confirmed product, logo, and package designs with suppliers.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Inventory Control Specialist - Costco Korea</h3>
+                    <span>2012 - 2014</span>
+                    <p class="line-text">Forecasted sales, issued and reviewed purchase orders accordingly to keep stocks within optimal levels. Planned and launched product demonstration events and gathered feedback for new products after launch. Reviewed and addressed feedback from member complaints regarding issues with sold products.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Resume Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+              <p>Copyright &copy; Karen Kang <script>document.write(new Date().getFullYear());</script>. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>  
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+      
+  </body>
 </html>
